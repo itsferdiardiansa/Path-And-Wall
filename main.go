@@ -1,6 +1,7 @@
 package main
 
 import (
+	datatypes "get-to-know-golang/data-types"
 	"get-to-know-golang/printing-and-fmt"
 )
 
@@ -24,4 +25,5 @@ func main() {
 	// fmt.Println(x)
 
 	printing.GetPrinting()
+	datatypes.PrintDataTypes()
 }
