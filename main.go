@@ -1,10 +1,6 @@
 package main
 
-import (
-	datatypes "get-to-know-golang/data-types"
-	"get-to-know-golang/pointer"
-	"get-to-know-golang/printing-and-fmt"
-)
+import "fmt"
 
 func main() {
 	// var conferenceName = "Go Conference"
@@ -25,7 +21,29 @@ func main() {
 	// fmt.Printf("Hallo %T %d \n", nil, 10)
 	// fmt.Println(x)
 
-	printing.GetPrinting()
-	datatypes.PrintDataTypes()
-	pointer.RunPointer()
+	// printing.GetPrinting()
+	// datatypes.PrintDataTypes()
+	// pointer.RunPointer()
+	// var num = 2
+	// var status = true
+
+	var (
+		userName = "Ferdi Ardiansa"
+		age      = 32
+		city     = "Surabaya"
+	)
+
+	// const (
+	// 	userActive   bool = false
+	// 	lastActivity int  = 0
+	// )
+
+	// fmt.Printf("Type %v is %T\n", num, num)
+	// fmt.Printf("Type %t is %T\n", status, status)
+
+	for i := 0; i < len(userName); i++ {
+		fmt.Println(userName[i], i)
+	}
+
+	fmt.Println(userName[0], age, city)
 }
