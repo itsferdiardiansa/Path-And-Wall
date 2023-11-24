@@ -1,3 +1,3 @@
-module get-to-know-golang
+module hello-go
 
 go 1.21.4
